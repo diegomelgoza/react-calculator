@@ -1,0 +1,34 @@
+.Calculator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 70%;
+}
+
+.btn-clear {
+  width: 50%;
+  margin: 0.25rem;
+  font-size: 1.75rem;
+  color: #444;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-clear button:hover {
+  border: 1px solid #aaa;
+}
+  
+.btn-clear button:active {
+  background-color: rgba(68, 66, 66, 0.8);
+  outline: none;
+}
+  
+.btn-clear button:focus {
+  outline: none;
+}
